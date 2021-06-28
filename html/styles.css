@@ -1,0 +1,659 @@
+@font-face
+{
+    font-family: 'Montserat';
+    src: url(../montserrat/Montserrat-Regular.ttf)
+}
+@font-face
+{
+    font-family: 'Open Sas';
+    src: url(../open-sas/OpenSans-Regular.ttf);
+}
+@font-face
+{
+    font-family: 'Verdana';
+    src: url(../files/ofont.ru_Verdana.ttf);
+}
+
+html, body 
+{
+    height: 100%;
+}
+
+html 
+{
+    display: table;
+    margin: auto;
+}
+
+body
+{
+    /* background: url(../files/оранж\ 1.png) no-repeat,
+                url(../files/оранж\ круг.png) no-repeat;
+     background-size: 500px, 1000px; 
+     background-position: left 0px top 0px, right -500px top -500px;  */
+    width: 1024px;
+    
+}
+#uppage, #lowerpage
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+#mainbox
+{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#orangebox
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+}
+#orangebox img
+{
+    height: 70%;
+}
+#orangecycle
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    overflow: hidden;
+}
+#orangecycle img
+{
+    height: 60%;
+    margin-top: -170px;
+    margin-right: -170px;
+}
+#mainheader
+{
+    position: absolute;
+    width: 50%;
+    height: 500px;
+}
+h3
+{
+    letter-spacing: 5px;
+}
+header
+{
+    display: flex;
+}
+#img1
+{
+    height: 500px;
+    width: 40%;
+}
+#fullphoto
+{
+    height: 100%;
+}
+#text
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+#fullname
+{
+    font-family: 'Verdana';
+    font-size: 55px;
+    margin-left: -4px;
+    margin-top: 10px;
+}
+#frontendheader
+{
+    margin-top: 0px;
+    margin-left: 40px;
+    text-align: center;
+    font-family: 'Montserat';
+    text-transform: uppercase;
+    font-size: 130%;
+
+}
+#goal
+{
+    width: 75%;
+    margin-left: 55px;
+}
+#goalheader
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Montserat';
+    text-transform: uppercase;
+    font-size: 130%;
+}
+#randomtext
+{
+    font-family: 'Open Sas';
+    font-size: 70%;
+}
+#line
+{
+    margin-left: 12px;
+    margin-top: 40px;
+    width: 43%;
+}
+#contacts
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+#contactsheader
+{
+    font-family: 'Montserat';
+    text-transform: uppercase;
+    font-size: 130%;
+}
+#colomn1, #colomn2
+{
+    width: 50%;
+    font-family: 'open  sas';
+}
+#colomns
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#lowerbox
+{
+    display: flex;
+    justify-content: center;
+    height: 850px;
+    width: 100%;
+    margin-top: -100px;
+}
+#leftpage
+{
+    width: 40%;
+    height: 100%;
+    
+}
+#rightpage
+{
+    width: 40%;
+    height: 100%;
+}
+#upimages
+{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+#lowerline
+{
+    width: 900px;
+}
+#lowersquare
+{
+    height: 50px;
+}
+ #leftimages
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: -700px;
+}
+#leftorange
+{
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+} 
+#leftline
+{
+    transform: rotate(90deg);
+    margin-left: -210px;
+}
+#education, #workexp, #personal
+{
+    margin-left: 20px;
+}
+#educationheader, #workexpheader, #personalheader, #skillsheader, #toolsheader, #hobbyheader
+{
+    font-family: 'Montserat';
+    letter-spacing: normal;
+    font-size: 150%;
+}
+#edulist, #explist, #skillslist, #hobbylist
+{
+    list-style-image: url(../files/черный_квадрат_15_15\ .jpg);
+    
+}
+
+#firstlist, #js, #thirdlist, #cyber, #fifthlist, #frontendh, #skillsfront, #more
+{
+    font-family: 'open sas';
+    letter-spacing: 2px;
+ 
+}
+#secondlist, #fourthlist, #sixthlist
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#skillsfront, #more
+{
+    margin-bottom: 20px;
+}
+#eigthlist
+{
+    margin-top: 15px;
+}
+
+#htmlandcss, #react, #firsttool, #secondtool, #sass, #react1, #sass1
+{
+    display: flex;
+}
+#htmlandcss img, #react img, #sass img, #react1 img, #sass1 img
+{
+    margin-right: 6px;
+    height: 15px;
+}
+#html, #reacttxt, #sasstxt
+{
+    margin-left: 15px;
+    font-family: 'open sas';
+    text-transform: uppercase;
+    margin-top: -3px;
+}
+#react
+{
+    margin-left: 20px;
+}
+.empty
+{
+    height: 13px;
+    width: 13px;
+    border:1px solid black;
+    margin-right: 6px;
+}
+#sass
+{
+    margin-left: 73px;
+}
+#secondtool, #thirdtool
+{
+    margin-top: 35px;
+}
+#hobby
+{
+    margin-top: 40px;
+}
+#hobbylist
+{
+    display: flex;
+}
+#hobbylist li
+{
+    margin-right: 50px;
+}
+#background img
+{
+    height: 500px;
+    margin-left: -350px;
+    margin-top: -100px;
+    filter: alpha(Opacity=50);
+    opacity: 0.5; 
+}
+#rightpage
+{
+    background: url(../files/серый.png) no-repeat;
+    background-position: left 100px top;
+}
+#rightimg
+{
+    width: 1%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 130px;
+}
+#lowline
+{
+    transform: rotate(90deg);
+    width: 250px;
+    margin-left: -95px;
+    margin-bottom: 100px;
+}
+#lowbox
+{
+    height: 30px;
+    width: 30px;
+}
+@media screen and (min-width: 1024px) and (max-width:1220px)
+{
+    
+    body
+    {
+        width: 800px;
+    }
+    #mainheader
+    {
+        margin-left: 100px;
+    }
+    #orangecycle img
+    {
+        height: 50%;
+        margin-top: -140px;
+        margin-right: -140px;
+    }
+    #text
+    {
+        margin-left: 100px;
+    }
+    #rightpage
+    {
+        margin-left: 20px;
+    }
+    #sass
+    {
+        margin-left: 10px;
+    }
+    #lowbox
+    {
+        margin-left: 40px;
+    }
+    #lowline
+    {
+        margin-left: -55px;
+    }
+    #leftimages
+    {
+        margin-left: -500px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px)
+{
+    body
+    {
+        width: 600px;
+    }
+    #orangebox img
+    {
+        height: 40%;
+    }
+    #orangecycle img
+    {
+        height: 30%;
+        margin-top: -90px;
+        margin-right: -90px;
+    }
+    #img1
+    {
+        height: 300px;
+        width: 20%;
+    }
+    #fullname
+    {
+        font-size: 30px;
+    }
+    #text
+    {
+        margin-left: 105px;
+    }
+    #contacts
+    {
+        margin-left: -150px;
+    }
+    #leftpage, #rightpage
+    {
+        font-size: 10px;
+    }
+    #lowersquare
+    {
+        margin-left: -320px;
+        height: 20px;
+    }
+    #lowerline
+    {
+      width: 500px; 
+      margin-right: 300px; 
+    }
+    #htmlandcss img, #react img, #sass img, #react1 img, #sass1 img
+    {
+        height: 10px;
+    }
+    .empty
+    {
+        width: 9px;
+        height: 9px;
+    }
+    #sass
+    {
+        margin-left: 16px;
+    }
+    #leftpage
+    {
+        margin-left: -60px;
+    }
+    #rigthpage
+    {
+        margin-right: 20px;
+    }
+    #background img
+    {
+        height: 200px;
+        margin-left: -130px;
+        margin-top: -30PX;
+    }    
+    #lowerbox
+    {
+        height: 600px;
+    }
+    #lowbox
+    {
+        height: 20px;
+        width: 20px;
+        margin-left: 30px;
+    }
+    #lowline
+    {
+        margin-left: -25px;
+        margin-bottom: 60px;
+        width: 150px;
+    }
+    #leftimages
+    {
+        margin-left: -220px;
+    }
+    #leftorange
+    {
+        height: 30px;
+        width: 30px;
+        margin-left: -180px;
+        margin-top: -90px;
+    }
+    #leftline
+    {
+        width: 300px;
+        margin-left: -310px;
+    }
+    
+    #rightpage
+    {
+        background-position: left 40px top;
+    }
+    #line
+    {
+        width: 100%;
+        margin-left: -80px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    body
+    {
+        width: 400px;
+    }
+    #orangebox img
+    {
+        height: 20%;
+    }
+    #orangecycle img
+    {
+        height: 10%;
+        margin-top: -30px;
+        margin-right: -25px;
+    }
+    #img1
+    {
+        height: 200px;
+        width: 20%;
+    }
+    #fullname
+    {
+        font-size: 20px;
+    }
+    #text
+    {
+        margin-left: 75px;
+    }
+    #frontendheader, #goalheader, #contactsheader
+    {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    #randomtext
+    {
+        font-size: 30%;
+    }
+    #contacts
+    {
+        margin-left: -70px;
+    }
+    #colomns
+    {
+        font-size: 10px;
+        margin-left: -100px;
+    }
+    #leftpage, #rightpage
+    {
+        font-size: 7px;
+    }
+    #lowersquare
+    {
+        margin-left: -500px;
+        height: 10px;
+    }
+    #lowerline
+    {
+      width: 300px; 
+      margin-right: 500px; 
+    }
+    #htmlandcss img, #react img, #sass img, #react1 img, #sass1 img
+    {
+        height: 7px;
+    }
+    .empty
+    {
+        width: 5px;
+        height: 5px;
+    }
+    #sass
+    {
+        margin-left: 16px;
+    }
+    #leftpage
+    {
+        margin-left: -60px;
+    }
+    
+    #background img
+    {
+        height: 100px;
+        margin-left: -60px;
+        margin-top: 10PX;
+    }    
+    #lowerbox
+    {
+        height: 500px;
+    }
+    #lowbox
+    {
+        height: 10px;
+        width: 10px;
+        margin-left: 50px;
+    }
+    #lowline
+    {
+        margin-left: -15px;
+        margin-bottom: 70px;
+        width: 150px;
+    }
+    #leftimages
+    {
+        margin-left: -50px;
+    }
+    #leftorange
+    {
+        height: 20px;
+        width: 20px;
+        margin-left: -170px;
+        margin-top: -90px;
+    }
+    #leftline
+    {
+        width: 300px;
+        margin-left: -310px;
+    }
+    
+    #rightpage
+    {
+        background-position: left 20px top;
+    }
+    #line
+    {
+        width: 100%;
+        margin-left: -100px;
+    }
+}
+@media screen and (max-width: 440px)
+{
+    #mainheader
+    {
+        margin-left: -100px;
+    }
+    #text
+    {
+        margin-left: 86px;
+    }
+    #orangecycle img
+    {
+        height: 20%;
+        margin-top: -60px;
+        margin-right: -20px;
+    }
+    #line
+    {
+        width: 200px;
+        margin-left: -100px;
+    }
+    #contacts
+    {
+        margin-left: -40px;
+    }
+    #leftpage, #rightpage
+    {
+        font-size: 5px;
+    }
+   
+    
+}
+
+    
+
